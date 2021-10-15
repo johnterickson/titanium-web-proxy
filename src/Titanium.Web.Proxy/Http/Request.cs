@@ -178,7 +178,7 @@ namespace Titanium.Web.Proxy.Http
         ///     Cancels the client HTTP request without sending to server.
         ///     This should be set when API user responds with custom response.
         /// </summary>
-        internal bool CancelRequest { get; set; }
+        public bool CancelRequest { get; set; }
 
         /// <summary>
         ///     Does this request has an upgrade to websocket header?
